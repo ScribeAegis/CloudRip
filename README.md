@@ -13,8 +13,7 @@ CloudRip requires Python 3 and the following libraries:
 - `colorama`
 - `pyfiglet`
 
-To install dependencies, run:
-```bash
+### To install dependencies, run:
 pip install colorama pyfiglet
 
 ### Usage
