@@ -1,6 +1,6 @@
 # CloudRip
 
-CloudRip is a tool designed to bypass Cloudflare protection and help discover the real IP addresses of domains by enumerating subdomains. It can be used for ethical research, educational purposes, and penetration testing to identify the actual servers behind Cloudflare.
+CloudRip is designed to bypass Cloudflare protection and help discover the real IP addresses of domains by enumerating subdomains. It can be used for ethical research, educational purposes, and penetration testing to identify the actual servers behind Cloudflare.
 
 ## Features
 - **Multithreaded Subdomain Resolution:** Faster scanning with configurable threading.
