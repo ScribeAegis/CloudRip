@@ -18,15 +18,14 @@ CloudRip requires Python 3 and the following libraries:
 ### To install dependencies, run:
 ```
 pip install colorama pyfiglet
-
+```
 ## Usage
 ```
-python3 cloudrip.py <domain> -w <wordlist> -t <threads> -o <output_file>
-<domain>: The target domain (e.g., example.com)
+python3 cloudrip.py <domain> -w <wordlist> -t <threads> -o <output_file> <domain>: The target domain (e.g., example.com)
 -w <wordlist>: Path to a custom wordlist (default is dom.txt)
 -t <threads>: Number of threads to use for concurrent scanning (default is 10)
 -o <output_file>: Optional. If specified, saves the results to a file
-
+```
 ## Example
 ```
 python3 cloudrip.py example.com -w dom.txt -t 20 -o results.txt
