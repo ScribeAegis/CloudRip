@@ -6,8 +6,8 @@ CloudRip is designed to bypass Cloudflare protection and help discover the real 
 - **Multithreaded Subdomain Resolution:** Faster scanning with configurable threading.
 - **Cloudflare IP Filtering:** Automatically filters out IPs known to belong to Cloudflare, improving the accuracy of the results.
 - **Customizable Wordlists:** Supports user-defined wordlists for subdomain enumeration.
-- **Color-Coded Terminal Output:** Easy-to-read results with color-coded output for status and findings.
-- **Graceful Interrupt Handling:** Allows users to pause the scan with `Ctrl+C` and choose whether to quit or resume.
+- **Terminal Output:** Easy-to-read results with color-coded output for status and findings.
+- **Interrupt Handling:** Allows users to pause the scan with `Ctrl+C` and choose whether to quit or resume.
 - **Option to Save Results:** Save found IPs to an output file for further analysis.
 
 ## Installation
@@ -32,8 +32,8 @@ python3 cloudrip.py example.com -w dom.txt -t 20 -o results.txt
 ```
 **New Features**
 - **Cloudflare IP Filtering:** Automatically checks and filters out IPs that are within Cloudflare’s known IP ranges to improve accuracy.
-- **Graceful Interruption Handling:** Press Ctrl+C to pause the scan and choose whether to quit or continue.
-- **Enhanced Error Handling:** Provides detailed feedback for various DNS resolution issues such as timeouts and no responses.
+- **Interruption Handling:** Press Ctrl+C to pause the scan and choose whether to quit or continue.
+- **Error Handling:** Provides detailed feedback for various DNS resolution issues such as timeouts and no responses.
 - **Rate Limiting:** Adjustable rate limiting to prevent getting blocked during scans.
 - **Extended Wordlist Support:** Includes a comprehensive and categorized default wordlist (dom.txt) for better results.
 
