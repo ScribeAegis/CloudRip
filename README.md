@@ -6,8 +6,6 @@ CloudRip is designed to bypass Cloudflare protection and help discover the real 
 - **Multithreaded Subdomain Resolution:** Faster scanning with configurable threading.
 - **Cloudflare IP Filtering:** Automatically filters out IPs known to belong to Cloudflare, improving the accuracy of the results.
 - **Customizable Wordlists:** Supports user-defined wordlists for subdomain enumeration.
-- **Terminal Output:** Easy-to-read results with color-coded output for status and findings.
-- **Interrupt Handling:** Allows users to pause the scan with `Ctrl+C` and choose whether to quit or resume.
 - **Option to Save Results:** Save found IPs to an output file for further analysis.
 - **Rate Limiting:** Adjustable rate limiting to prevent getting blocked during scans.
 - **Extended Wordlist Support:** Includes a comprehensive and categorized default wordlist (dom.txt) for better results.
